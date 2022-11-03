@@ -3,10 +3,7 @@
 .catalog {
   display: grid;
   justify-content: center;
-  align-content: center;
-  flex-wrap: wrap;
   max-width: 944px;
-  margin: 0 auto;
   padding-bottom: 48px;
   gap: 48px;
   grid-template-columns: $card-width;
@@ -39,8 +36,8 @@
     border: 1px solid #ccc;
     border-radius: 5px;
   }
+}
 
-  &__card:not(:nth-child(4n)) {
-    margin-right: 48px;
-  }
+.page__catalog {
+  margin: 0 auto;
 }
